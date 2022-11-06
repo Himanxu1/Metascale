@@ -1,0 +1,25 @@
+.OurTeam-Container{
+    height: 80vh;
+    width: 100vw;
+    
+}
+.OurTeam-heading{
+    color: aliceblue;
+    font-size: 50px;
+}
+.OurTeam-subheading{
+    padding-top: 5vh;
+    color: white;
+    padding-bottom: 13vh;
+}
+.OurTeam-membersContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px) {
+    .OurTeam-membersContainer{
+        flex-direction: column;
+        margin-left:6vh;
+    }
+}
