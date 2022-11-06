@@ -2,7 +2,7 @@
 .section__container{
     /* height: 100vh; */
     max-width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 20px;
     margin: auto;
     border-top: 1px solid black;
