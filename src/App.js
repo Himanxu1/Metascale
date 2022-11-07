@@ -5,7 +5,10 @@ import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/services/Services';
 import Testimonial from './components/testimonial/Testimonial';
+import HowWorks  from './components/How-Works/howWorks';
 import Fade from 'react-reveal/Fade';
+
+
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
       <Services/>
       <Testimonial/>
       <Cta/>
+      <HowWorks/>
       <Footer/>
       </Fade>
     </div>

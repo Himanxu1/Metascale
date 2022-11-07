@@ -1,0 +1,7 @@
+<div className="icon-container">
+          <span className="icon display-flex">
+                <AiOutlineTwitter className="icontwittter"  size= "2rem" style={{cursor : "pointer"}}/>
+                <AiOutlineInstagram className="iconInsta" size= "2rem" style={{cursor : "pointer"}}  />
+                <AiFillLinkedin className="iconLinkedin"  size= "2rem" style={{cursor : "pointer"}}/>
+                <h2>Aquire</h2>
+          </span>
