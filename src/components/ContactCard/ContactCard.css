@@ -1,0 +1,34 @@
+.contact-card-container{
+    height: auto;
+    width: 30vw;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 3%;
+    background-color: rgb(4, 4, 4);
+    text-align: left;
+}
+.contact-card-heading{
+    font-size: 35px;
+}
+.contact-card-details-container{
+    margin-top: 20px;
+}
+.contact-social-container{
+    margin-top: 10px;
+}
+.contact-footer-element{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.contact-footer-element-container{
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .contact-card-container{
+        width:auto;
+        height: auto;
+    }
+}
