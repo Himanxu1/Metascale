@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.HowWorksSec {
+  background-color: rgb(29, 27, 27);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0px 3px 0px rgb(244, 240, 240);
+  border-radius: 12px 5px;
+  background-color: rgb(29, 27, 27);
+}
+h2 {
+  background: -webkit-linear-gradient(281deg, #ffffff 13%, #6284ff 83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 3vh;
+  color: #fff;
+}
+
+.iconInsta {
+  color: darkmagenta;
+  position: relative;
+  transform: rotate(5deg);
+  bottom: 5vh;
+  cursor: pointer;
+}
+.icontwittter {
+  color: #fff;
+  position: relative;
+  transform: rotate(-20deg);
+}
+.iconLinkedin {
+  color: #fff;
+  position: relative;
+  transform: rotate(-12deg);
+  right: 0.5vw;
+}
+.iconDiscord {
+  color: #fff;
+  position: relative;
+  transform: rotate(-12deg);
+  right: 0.5vw;
+  bottom: 3vh;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-box {
+  margin: 10vw;
+  margin-top: 15vh;
+}
+.arrow-icon {
+  color: rgb(163, 155, 155);
+  position: relative;
+  top: 15vh;
+}
+
+/* responsive-ness starting from here */
+
+@media screen and (max-width: 768px) {
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow-icon1 {
+    position: absolute;
+    top: 37vh;
+    left: 48vw;
+    transform: rotate(90deg);
+  }
+  .arrow-icon2 {
+    position: absolute;
+    top: 64vh;
+    left: 48vw;
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 400px){
+     
+  .arrow-icon1 {
+    /* position: absolute; */
+     display: none;
+    /* position: absolute;
+    top: 38vh;
+    left: 48vw;
+    transform: rotate(90deg); */
+  }
+  .arrow-icon2 {
+    display: none;
+    /* position: absolute;
+    top: 64vh;
+    left: 48vw;
+    transform: rotate(90deg); */
+  }
+}
