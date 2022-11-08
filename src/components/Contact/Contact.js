@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactCard from '../components/ContactCard/ContactCard';
-import ContactForm from '../components/ContactForm/ContactForm';
+import ContactCard from '../ContactCard/ContactCard';
+import ContactForm from '../ContactForm/ContactForm';
 import "./Contact.css"
 function Contact() {
     return (

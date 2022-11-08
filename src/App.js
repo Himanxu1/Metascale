@@ -5,9 +5,9 @@ import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/services/Services';
 import OurTeam from "./components/OurTeam/OurTeam";
-import Contact from './Contact/Contact';
 import Testimonial from './components/testimonial/Testimonial';
 import Fade from 'react-reveal/Fade';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
