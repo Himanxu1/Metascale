@@ -3,15 +3,19 @@
     /* height: 100vh; */
     max-width: 100%;
     background-color: rgb(255, 255, 255);
+    
+
     padding-bottom: 20px;
     margin: auto;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     padding-bottom: 100px;
+    padding:20px;
 }
 .section_header{   
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    color: black;
 }
 
 .card_container{
@@ -19,4 +23,8 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 30px;
     margin-top: 40px;
+}
+
+@media only screen and (max-width: 660px){
+  
 }

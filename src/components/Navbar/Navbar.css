@@ -34,9 +34,18 @@
     display: none;
     cursor: pointer;
 }
+.purple{
+    color: rgba(189, 0, 247, 0.849);
+    font-size: 40px;
+}
 
+.pink{
+    color:rgb(247, 7, 215);
+}
 
-
+.logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 @media only screen and (max-width: 660px){
     .navbar_container ul li{
         font-size: 16px;

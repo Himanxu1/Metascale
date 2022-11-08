@@ -14,9 +14,12 @@ const Footer = () => {
           <p className='copyright'>© 2022 Blockverse Media</p>
         </div>
         <div className='contact_container'>
+          <div>
           <p>Contact us</p>
           <p>tanishq@blockversemedia.xyz</p>
           <p>Tel: +91 7980066563</p>
+          </div>
+         
         </div>
     </div>
   )

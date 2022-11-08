@@ -4,9 +4,11 @@ import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/services/Services';
+import OurTeam from "./components/OurTeam/OurTeam";
 import Testimonial from './components/testimonial/Testimonial';
 import HowWorks  from './components/How-Works/howWorks';
 import Fade from 'react-reveal/Fade';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -17,9 +19,11 @@ function App() {
       <Navbar/>
       <Hero/>
       <Services/>
+      <OurTeam/>
       <Testimonial/>
       <Cta/>
       <HowWorks/>
+      <Contact/>
       <Footer/>
       </Fade>
     </div>
