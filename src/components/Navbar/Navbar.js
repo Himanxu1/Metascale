@@ -3,11 +3,11 @@ import './Navbar.css';
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
-  const [showlinks,setShowLinks] = useState(true);
+  const [showlinks,setShowLinks] = useState(false);
   return (
     <div className='navbar_container'>
-        <div className='logo'>
-            <h1><span>Meta</span><span>Scale</span></h1>
+        <div>
+            <h1 className='logo'><span className='purple'>Meta</span><span className='pink'>Scale</span></h1>
         </div>
         <ul  id={showlinks ? "hidden":""}>
             <li>Services</li>

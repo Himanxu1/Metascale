@@ -1,0 +1,29 @@
+.cta_container{
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    /* display: grid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta_container h1{
+    color: rgb(3, 79, 151);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cta_container p{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: rgb(128, 125, 125);
+}
+
+.cta_container button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(83, 24, 245);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

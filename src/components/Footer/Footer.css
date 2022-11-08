@@ -18,7 +18,9 @@
     color: white;
     margin-left: 50px;
     text-align: left;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding: 20px;
+    padding-top: 40px;
 }
 
 .newsletter_p{
@@ -95,16 +97,20 @@
 
 @media only screen and (max-width: 600px) {
     .footer_container{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        margin: auto;
+        /* text-align: left; */
         
     }
     .newsletter_p{
         width: auto;
     }
     .contact_container{
-        margin:auto;
-        padding-top: 40px;
+       display: flex; 
+       margin: auto;
+       justify-content: center; 
     }
     .subscribe{
         display:none;

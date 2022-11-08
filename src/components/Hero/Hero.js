@@ -5,12 +5,13 @@ const Hero = () => {
   return (
     <div className='hero__container'>
         <div className='hero__content'>
-        <div className='tagline'>
-            <h1 className='text-3xl font-bold underline'>We build stuff to make your online presence <span className='blue'>awwwesome.</span></h1>
+        <div >
+            <h1 className='tagline'>We build stuff to make your online presence <span className='blue'>awwwesome.</span></h1>
         </div>
         <button className='hero__btn'>Contact Now</button>
         </div>
-        <div className='previous__client'>
+     <div className='previous__client'>
+       
         <div class="slide">
           <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo1.png" />
           </div>
@@ -20,15 +21,16 @@ const Hero = () => {
 				<div class="slide">
           <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo3.png" />
           </div>
-				<div class="slide">
-          <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo1.png" />
-          </div>
-				<div class="slide">
-          <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo2.png" />
-          </div>
-				<div class="slide">
-          <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo3.png" />
-          </div>
+          <div class="slide">
+            <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo1.png" />
+            </div>
+            <div class="slide">
+             <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo2.png" />
+            </div>
+          <div class="slide">
+            <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo3.png" />
+            </div>
+        
 
         </div>
     </div>
