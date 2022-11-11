@@ -12,8 +12,8 @@ function ContactCard() {
     <div className="contact-card-container">
       <p>Contact</p>
       <div className="contact-card-details-container">
-        <p className="contact-card-heading">Gigaweb</p>
-        <p>Making Internet Awwesome</p>
+        <p className="contact-card-heading">MetaScale</p>
+        <p className="contact_tagline">Making Internet Awwesome</p>
         <div className="contact-social-container">
           <GrInstagram style={style} />
           <BsTwitter style={style} />

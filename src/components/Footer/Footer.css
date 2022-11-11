@@ -84,7 +84,7 @@
 .contact_container{
     color: white;
     margin-top: 50px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
     padding: 20px;
     /* border: 1px solid white; */
 }
@@ -97,9 +97,9 @@
 
 @media only screen and (max-width: 600px) {
     .footer_container{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
+        align-items: baseline;
         margin: auto;
         /* text-align: left; */
         
@@ -108,9 +108,9 @@
         width: auto;
     }
     .contact_container{
-       display: flex; 
+       /* display: flex; 
        margin: auto;
-       justify-content: center; 
+       justify-content: center;  */
     }
     .subscribe{
         display:none;
@@ -118,3 +118,4 @@
     
     
   }
+

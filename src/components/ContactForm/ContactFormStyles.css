@@ -12,7 +12,9 @@
     opacity: 0.7;
 }
 .contact-form-container{
-    background-color: rgb(159, 5, 30);
+    background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
     height: auto;
     width: 50vw;
     padding: 10px;
@@ -49,7 +51,7 @@
     outline: none;
     color: white;
 }
-button{
+.send__message{
     background-color: rgba(236, 228, 229, 0.2);
     border-style: none;
     width: 150px;
@@ -60,5 +62,21 @@ button{
         flex-direction: column;
         width:auto;
         height: auto;
+    }
+   
+}
+
+@media only screen and (max-width:365px){
+    .contact-name-email{
+        flex-direction: column;
+        
+    }
+    .contact-name-email input{
+        width: 97%;
+       
+    }
+    .contact-name-email input::placeholder{
+        color: white;
+        padding-left:10px;
     }
 }

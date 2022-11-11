@@ -23,7 +23,7 @@ const OurTeamCard=(props)=>{
           <BsGithub style={style}/>
         </a>
       </div>
-      <a href={props.portfolio_link}><button>Portfolio</button></a>
+      <a href={props.portfolio_link}><button className="portfolio__button">Portfolio</button></a>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 .contact-box-container{
     display: flex;
     flex-direction: row;
-    background-color: rgba(21, 20, 20, 0.941);
+    background-color: rgba(32, 30, 30, 0.941);
     height: auto;
     width:100%;
 }
