@@ -1,11 +1,13 @@
 .contact-card-container{
     height: auto;
     width: 30vw;
-    padding: 10px;
+    padding: 20px;
     margin: 25px;
     border-radius: 3%;
-    background-color: rgb(4, 4, 4);
+    background-color: rgb(29, 39, 51);
     text-align: left;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .contact-card-heading{
     font-size: 35px;
@@ -26,6 +28,11 @@
     display: flex;
     flex-direction: column;
 }
+
+.contact_tagline{
+    
+}
+
 @media only screen and (max-width: 600px) {
     .contact-card-container{
         width:auto;
